@@ -11,7 +11,7 @@ The problem statement of this part is to build a 5 layer CNN model and train the
 
 ## Code
 
-We created five code files for part A question.
+We created eight code files for part A question.
 
 **Assignment2_PartA_Q1.ipynb** :\
 Code is written in notebook style. we can download the file and upload to google colab or kaggle and can run
