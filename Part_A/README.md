@@ -50,27 +50,22 @@ This file contains Part A Question 1 code to run it in command line by typing th
  
 
 **Assignment2_PartA_Q2.ipynb** :
+This notebook can be uploaded in kaggle or google colab and the cells can be run one after another as in the order to train using sweep parameters and generate the plots and find the test accuracy also.\
+actual_data_path = "./inaturalist_12K" is path set for kaggle.\
+To run in colab replace the path accordingly\
+Run upto the cell given below to run and plot wandb graphs\
+#Run this cell to start sweep\
+wandb.agent(sweep_id, train_wandb , project="Assignment2_PartA",count=5)\
+wandb.finish()\
+Run the main() function instead to train and test with given paramters by flexible changing the code
 
 **Assignment2_PartA_Q4.ipynb** :
 
 **Assignment2_PartA_Q5.ipynb** :
 
-**DL_Assignment2_partB_code_using_commandLineArguments.py** : In this file code is written in a way to execute in a local machine and can send the
-parameters as a command line arguments. The order of command line arguments are :\
-model (Name of the pretrained model)\
-epochs (Number of epochs to train the model)\
-learning_rate\
-batch_size\
-weight_decay\
-unfreezed_from_last  (Number of layers from last to update the weights during training)\
-dataset_augmentation (Boolean value , If True data augumentation will done otherwise not)
-
-Paste the local path of dataset in the actual_data_path variable in the code.
-If dataset is locates at "C:/nature_12K/inaturalist_12K/" then give  actual_data_path = "C:/nature_12K/inaturalist_12K/". Code will take care to load
-train, validation, test data.
 
 ## Report
-The report for this assignment : [link]().
+The report for this assignment : [link](https://wandb.ai/cs21s045_cs21s011/uncategorized/reports/Assignment-2--VmlldzoxNzY2NTQz).
 
 ## Authors
 
