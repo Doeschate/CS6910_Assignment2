@@ -35,7 +35,7 @@ If dataset is locates at "C:/nature_12K/inaturalist_12K/" then give  actual_data
 train, validation, test data.
 
 ## Report
-The report for this assignment : [link]().
+The report for this assignment : [link](https://wandb.ai/cs21s045_cs21s011/uncategorized/reports/Assignment-2--VmlldzoxNzY2NTQz).
 
 ## Authors
 
