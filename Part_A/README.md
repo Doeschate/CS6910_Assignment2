@@ -65,7 +65,10 @@ This notebook can be uploaded in kaggle or google colab and the cells can be run
 
 
 
-**Assignment2_PartA_Q5.ipynb** :
+**Assignment2_PartA_Q5.ipynb** :\
+This notebook can be uploaded in kaggle or colab and the cells can be run one after another as in the order to get the guided back propagation on any 10 neurons in the CONV5 layer and plot the images which excite this neuron.
+
+**Assignment2_PartA.ipynb** contains all the Assignment2_PartA codes in one notebook for reference.It is modified version of Pytorch_Assignment2.ipynb
 
 
 ## Report
