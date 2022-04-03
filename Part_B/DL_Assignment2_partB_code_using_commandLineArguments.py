@@ -1,10 +1,3 @@
-# Installing required libraries
-
-!pip install -U albumentations
-!pip install "opencv-python-headless<4.3" #for import albumentations as A
-!pip install timm # for InceptionResNetV2 pretrained model
-
-
 # All import statements
 
 import sys,os
