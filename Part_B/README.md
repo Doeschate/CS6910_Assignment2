@@ -7,11 +7,10 @@ technigues and do experiments with different hyperparameters to get maximum accu
 
 ## installing Libraries
 
-!pip install wandb  (To update experiment values to wandb)
-!pip install -U albumentations (For data augumentation)
-!pip install "opencv-python-headless<4.3" (For import albumentations as A)
+!pip install wandb  (To update experiment values to wandb) 
+!pip install -U albumentations (For data augumentation) 
+!pip install "opencv-python-headless<4.3" (For import albumentations as A) 
 !pip install timm (For InceptionResNetV2 pretrained model)
-
 
 We created to code files for part B question.
 
