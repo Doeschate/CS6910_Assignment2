@@ -256,11 +256,11 @@ if  __name__ =="__main__":
   n = len(sys.argv) # number of command line arguments passed
   
   model = sys.argv[1]
-  epochs = sys.argv[2]
-  learning_rate = sys.argv[3]
-  batch_size = sys.argv[4]
-  weight_decay = sys.argv[5]
-  unfreezed_from_last = sys.argv[6]
+  epochs = int(sys.argv[2])
+  learning_rate = float(sys.argv[3])
+  batch_size = int(sys.argv[4])
+  weight_decay = float(sys.argv[5])
+  unfreezed_from_last = int(sys.argv[6])
   dataset_augmentation = sys.argv[7]
 
   main(model, epochs, learning_rate, batch_size, weight_decay, unfreezed_from_last, dataset_augmentation)
